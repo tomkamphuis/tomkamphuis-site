@@ -307,7 +307,7 @@ h1, h2, h3 {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -326,6 +326,7 @@ h1, h2, h3 {
 .card-2 { border-top-color: var(--accent-2); }
 .card-3 { border-top-color: var(--accent-3); }
 .card-4 { border-top-color: var(--accent-4); }
+.card-5 { border-top-color: var(--accent-1); }
 
 .card-num {
   display: inline-flex;
@@ -344,6 +345,7 @@ h1, h2, h3 {
 .card-2 .card-num { background: var(--accent-2-soft); color: var(--accent-2); }
 .card-3 .card-num { background: var(--accent-3-soft); color: var(--accent-3); }
 .card-4 .card-num { background: var(--accent-4-soft); color: var(--accent-4); }
+.card-5 .card-num { background: var(--accent-1-soft); color: var(--accent-1); }
 
 .card h3 {
   font-size: 1.02rem;

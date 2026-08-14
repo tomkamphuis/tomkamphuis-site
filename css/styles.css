@@ -265,6 +265,32 @@ h1, h2, h3 {
   color: rgba(255, 255, 255, 0.75);
 }
 
+/* Pull quote */
+
+.pullquote-section {
+  padding: 56px 0;
+  text-align: center;
+}
+
+.pullquote-rule {
+  width: 56px;
+  height: 4px;
+  margin: 0 auto 28px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent-1), var(--accent-3));
+}
+
+.pullquote {
+  margin: 0 auto;
+  max-width: 42ch;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  line-height: 1.35;
+  color: var(--text);
+}
+
 /* Sections */
 
 .section {
